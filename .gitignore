@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Plot Images
+*.png
