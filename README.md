@@ -173,3 +173,139 @@ The bar plot comparing the training times of the quantum-inspired SVM and the cl
 
 ### Conclusion
 Both models achieved perfect accuracy on the Iris dataset, demonstrating their effectiveness for this classification task. The comparative analysis shows that while the quantum-inspired model can leverage quantum principles, both implementations performed similarly in this instance.
+
+## Quantum-Inspired Algorithms for Machine Learning and Optimization
+
+This repository contains implementations of quantum-inspired algorithms for machine learning and optimization problems, specifically focusing on Support Vector Machines (SVM) and Number Factorization.
+
+## Features
+
+### 1. Quantum-Inspired Support Vector Machine (QISVM)
+- Implementation of a quantum-inspired SVM algorithm
+- Classical SVM implementation for comparison
+- Performance metrics and visualization tools
+- Comparative analysis between quantum-inspired and classical approaches
+
+### 2. Quantum-Inspired Factorization Algorithm
+- Implementation of a quantum-inspired algorithm for factoring balanced semiprime numbers
+- Web interface for testing and visualization
+- Performance analysis and timing metrics
+
+## Installation
+
+1. Create a virtual environment:
+```bash
+python3 -m venv venv
+source venv/bin/activate  # On Linux/Mac
+# or
+.\venv\Scripts\activate  # On Windows
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+## Usage
+
+### Quantum-Inspired SVM
+```python
+from quantum_svm import QuantumInspiredSVM
+
+# Initialize and train the model
+qsvm = QuantumInspiredSVM()
+qsvm.fit(X_train, y_train)
+
+# Make predictions
+predictions = qsvm.predict(X_test)
+```
+
+### Quantum-Inspired Factorization
+```python
+from quantum_inspired_factorization import quantum_inspired_factorization
+
+# Factor a balanced semiprime number
+factors = quantum_inspired_factorization(N)
+```
+
+## Performance Analysis
+
+### SVM Performance
+- Accuracy: Both quantum-inspired and classical SVMs achieve 100% accuracy on the test dataset
+- Training Time:
+  - Quantum-inspired SVM: ~0.0009 seconds
+  - Classical SVM: ~0.0007 seconds
+
+### Factorization Performance
+- Successfully factors balanced semiprime numbers
+- Performance scales with input size
+- Implements quantum-inspired concepts like superposition and tunneling in a classical context
+
+## Applications
+
+1. **Machine Learning and Pattern Recognition**
+   - Image classification
+   - Text categorization
+   - Bioinformatics data analysis
+   - Financial market prediction
+
+2. **Cryptography and Security**
+   - Analysis of cryptographic systems
+   - Testing encryption strength
+   - Factorization of semiprime numbers used in RSA
+
+3. **Optimization Problems**
+   - Resource allocation
+   - Schedule optimization
+   - Portfolio optimization
+   - Network routing
+
+4. **Scientific Computing**
+   - Molecular modeling
+   - Quantum chemistry simulations
+   - Complex system analysis
+
+## Technical Details
+
+### Quantum-Inspired Concepts Used
+1. **Superposition**: Implemented through probabilistic methods
+2. **Quantum Tunneling**: Used for escaping local minima
+3. **Phase Estimation**: Applied in factorization algorithm
+4. **Quantum Fourier Transform**: Adapted for classical implementation
+
+## How to Cite
+
+If you use this codebase in your research, please cite it as follows:
+
+```bibtex
+@software{quantum_inspired_algorithms,
+  title = {Quantum-Inspired Algorithms for Machine Learning and Optimization},
+  author = {Your Name},
+  year = {2025},
+  url = {https://github.com/yourusername/QISVM},
+  version = {1.0.0},
+  description = {A collection of quantum-inspired algorithms implemented for classical computers}
+}
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Thanks to the scientific community for developing quantum-inspired algorithms
+- Special thanks to contributors and users of this codebase
+
+## Contact
+
+For questions and feedback, please open an issue in the repository or contact the maintainers directly.
+
+## Status
+
+Current Status: Active Development
+Last Updated: February 2025
