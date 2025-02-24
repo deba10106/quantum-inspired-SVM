@@ -10,5 +10,4 @@ venv/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Plot Images
-*.png
+

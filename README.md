@@ -264,18 +264,18 @@ If you use this implementation in your research, please cite:
 ```bibtex
 @article{quantum_inspired_svm_2025,
   title={Quantum-Inspired Support Vector Machine: A Novel Approach for Enhanced Machine Learning Performance},
-  author={Your Name},
+  author={Debasis Mondal},
   journal={arXiv preprint},
   year={2025},
   month={2},
   note={Demonstrates 17.8x speedup over classical implementation},
-  url={https://github.com/yourusername/QISVM}
+  url={https://github.com/deba10106/quantum-inspired-SVM}
 }
 ```
 
 or in text:
 
-> [Author Name] (2025). "Quantum-Inspired Support Vector Machine: A Novel Approach for Enhanced Machine Learning Performance." Available at: https://github.com/yourusername/QISVM
+> [Debasis Mondal] (2025). "Quantum-Inspired Support Vector Machine: A Novel Approach for Enhanced Machine Learning Performance." Available at: https://github.com/deba10106/quantum-inspired-SVM
 
 ## Acknowledgments
 We extend our gratitude to the quantum computing research community and all contributors who have supported this work. This research was inspired by fundamental quantum computing principles and algorithms.
